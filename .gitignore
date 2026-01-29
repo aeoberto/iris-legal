@@ -26,3 +26,33 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Arduino
+*.bin
+*.elf
+*.hex
+*.map
+
+# PlatformIO
+.pio/
+.vscode/
+
+# ESP32
+build/
+sdkconfig
+sdkconfig.old
+
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+
+# Secrets
+.env
+secrets.h
+config.h
+
